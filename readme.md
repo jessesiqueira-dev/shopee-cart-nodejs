@@ -6,15 +6,14 @@
       src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
       width="100px" 
     />
-    <h1>Simulador de Carrinho de Compras (Shopee Style)</h1>
+    <h1>Simulador de Carrinho de Compras Shopee</h1>
   </p>
 </div>
 <!--END_SECTION:header-->
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=DIO&message=Challenge&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <img src="https://img.shields.io/static/v1?label=Status&message=Completed&color=success&labelColor=202024" alt="Status" />
-  <img src="https://img.shields.io/static/v1?label=Node.js&message=v20+&color=339933&labelColor=202024" alt="Node Version" />
+  <img src="https://img.shields.io/static/v1?label=Nivel&message=Intermediario&color=E94D5F&labelColor=202024" alt="Nivel">
 </p>
 
 <table align="center">
@@ -23,17 +22,17 @@
     <td>
         <p align="center">Jessé Siqueira</p>
         <a href="https://github.com/jessesiqueira">
-        <img src="https://github.com/jessesiqueira.png" width="115px" alt="Jessé Siqueira"><br>
+        <img src="./assets/avatar.png" width="115px" alt="Jessé Siqueira"><br>
       </a>
     </td>
     <td colspan="3">
-    <p>🚀 <b>Full Stack Developer | Estudante de ADS (Unicesumar)</b>
+    <p>🚀 <b>Full Stack Developer | ADS (Unicesumar)</b>
       <br/>
-      🎓 Mestre em Bioenergia com foco em sustentabilidade e tecnologia.
+      🌟 Especialista em Java, Spring Boot, React e Node.js.
       <br/>
-      👨‍💻 Atuando com Java, Spring Boot, React e Node.js.
+      👨‍💻 Mestre em Bioenergia com foco em sustentabilidade e inovação.
     </p>
-      <a href="https://www.linkedin.com/in/jessé-siqueira/" align="center">
+      <a href="https://www.linkedin.com/in/jessé-siqueira/">
         <img align="center" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
       </a>
     </td>
@@ -43,33 +42,32 @@
 
 <br/>
 
-## 💻 Sobre o Projeto
+## 💻 Descrição Do Projeto
 
-Este projeto foi desenvolvido como um desafio prático na **DIO**, com o objetivo de recriar a lógica fundamental de um carrinho de compras de e-commerce. A aplicação gerencia itens, calcula totais e sub-totais, e manipula a quantidade de produtos de forma dinâmica.
+Este desafio consistiu em criar a lógica de um carrinho de compras para o ecossistema da Shopee utilizando **Node.js**. O foco foi aplicar conceitos de modularização e lógica funcional para gerenciar itens, calcular totais e manipular quantidades.
 
-### 🚀 Melhorias Implementadas (Diferenciais)
-Para elevar o nível da entrega, apliquei melhorias que vão além do código base:
-- **Lógica de Agrupamento:** O sistema agora verifica se um item já existe no carrinho ao ser adicionado. Se existir, ele incrementa a quantidade em vez de duplicar a linha.
-- **Formatação de Moeda:** Utilizei a API `Intl.NumberFormat` para exibir todos os valores formatados como Real Brasileiro (BRL).
-- **UX no Console:** Mensagens de feedback personalizadas para cada ação (adicionar, remover, deletar).
+### 🛠️ Melhorias Técnicas Implementadas
+Para demonstrar domínio além do básico solicitado, apliquei:
+- **Agrupamento Dinâmico:** Se um item já existe, o sistema incrementa a quantidade em vez de duplicar a entrada no array.
+- **Internacionalização (i18n):** Formatação automática de preços para o padrão de moeda brasileiro (BRL).
+- **Tratamento de Fluxo:** Implementação de lógica para remoção automática de itens quando a quantidade chega a zero.
 
-## 🛠️ Tecnologias e Habilidades
+## 📚 Tecnologias Utilizadas
 
-- **Node.js**: Ambiente de execução.
-- **Javascript (ES6+)**: Uso intenso de `Async/Await`, `Reduce`, `FindIndex` e `Modules`.
-- **Modularização (ESM)**: Organização do código em camadas de serviços específicas para itens e carrinho.
+- **JavaScript (ES6+)**: Funções assíncronas, manipulação de arrays (`reduce`, `findIndex`).
+- **Node.js**: Estrutura de módulos (ESM).
+- **Clean Code**: Separação de responsabilidades entre `services/cart.js` e `services/item.js`.
 
-## 📚 Funcionalidades Principais
+## 🎯 Resultados Esperados
 
-*   [x] **Criar Item**: Gera um objeto de item com cálculo automático de subtotal.
-*   [x] **Adicionar ao Carrinho**: Adiciona novos itens ou incrementa a quantidade de existentes.
-*   [x] **Remover Item (Qtd)**: Diminui a quantidade de um item; se chegar a 1, ele é removido.
-*   [x] **Deletar Item**: Remove completamente o item do carrinho, independente da quantidade.
-*   [x] **Cálculo de Total**: Soma todos os subtotais de forma otimizada.
-*   [x] **Exibição Formatada**: Mostra a lista de compras de forma organizada no terminal.
+- Código altamente modular e reutilizável.
+- Organização de pensamento lógico para sistemas de e-commerce.
+- Base sólida para integração futura com bancos de dados.
 
-## ⚙️ Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/jessesiqueira/seu-repositorio.git](https://github.com/jessesiqueira/seu-repositorio.git)
+<!--START_SECTION:footer-->
+<br />
+<p align="center">
+  <a href="https://www.dio.me/" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
+  </a>
+</p>
